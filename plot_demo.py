@@ -22,5 +22,3 @@ for num_measurements in [25, 100, 500]:
     mean = sum(temperatures) / num_measurements
 
     plot_temperatures(temperatures, mean)
-
-
